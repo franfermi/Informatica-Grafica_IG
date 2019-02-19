@@ -1,0 +1,44 @@
+-Proyecciones
+
++Paralelas (ortogonales)
++Perspectivas
+
+-Transf
+
++Proyección (GL_PROJECTION)
++Modelador (GL_MODELVIEW)
+
+
+glMatrixMode(GL_PROJECTION)
+glLoadIdentity()
+-Modos
+glOrtho(left, right, bottm, top, near, far) (Proyección paralela)
+glFrustum(left, right, bottom, top, near, far) (Proyección perspectiva)
+
+
+
+-Selección
+
+Zbufer
+
+--------------------------------------------------------------------------------------
+n1 | minZ1 | maxZ1 | id1 | ... | id1 | n2 | minZ2 | maxZ2 | id2 | ... | id2 | n3 | ...
+--------------------------------------------------------------------------------------
+|------------------------------------||-------------------------------------||--------
+	   hit1					   hit2				hit3
+
+-Ejemplo
+
+--------------------------------------------------------------------------------------
+2 | 15 | 20 | 0 | 1 | 1 | 10 | 18 | 0 | 3 | 12 | 21 | 1 | 2  | 3 |
+--------------------------------------------------------------------------------------
+
+|                   |  		      |				 |
+
+hits=3
+min=infinito
+names=2
+
+procesaHits(...){
+	
+}
