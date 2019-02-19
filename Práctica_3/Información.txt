@@ -1,0 +1,78 @@
+﻿Darío López Muñoz 
+====================================================================
+
+Los cursores mueven la cámara a izquierda y derecha, arriba y abajo.
+
+Las teclas Página adelante y Página atrás acercan y alejan la cámara
+
+
+
+Teclas Q y ESC: salir
+
+
+Tecla F1: RObOT
+
+
+* Descripción:
+ ---------------------------------------------------------------------------------------
+|											|
+| El robot proporciona una gran variación de movimientos.				|
+| Algunos son duplicidades dadas las características de simetría que tiene el objeto.	|
+| 											|
+|											|
+| Dos brazos, dos piernas, dos ojos.							|
+|											|
+ ---------------------------------------------------------------------------------------
+
+
+* Contenido :
+ -------------------------------------------------------------------------------
+|										|
+|										|
+|-Una imagen JPG: "diseñodelmodelo" donde, de forma gráfica, se describe	|
+|el modelo que va a ser diseñado. Hay que tener en cuenta que la 		|
+|nomenclatura de cada parte del diseño será utilizada más adelante		|
+|como referencia en el grafo jerárquico.					|
+|										|
+|-Una imagen JPG: "grafojerarquico" donde se ha diseñado el grafo 		|
+|que define el modelo anteriormente diseñado, junto a sus transformaciones	|
+|geométricas pertinentes.							|
+|										|
+|-Una carpeta: "Código" donde se adjunta todo el código que se ha programado	|
+|basandose en los modelos anteriores. Como resultado se ha obtenido un		|
+|objeto 3D que se ajusta a los requisitos iniciales.				|
+|										|
+ -------------------------------------------------------------------------------
+
+* Controles:
+ -----------------------------------------------------------------------------------------------
+|												|
+|Tecla B: Giro de la cabeza del robot hacia la izquierda.					|	
+|Tecla N: Giro de la cabeza del robot hacia la derecha.						|
+|Tecla K: El robot sube ambos brazos.								|
+|Tecla J: El robot baja ambos brazos.								|
+|Tecla O: El robot sube el brazo derecho.							|
+|Tecla I: El robot baja el brazo derecho.							|
+|Tecla U: El robot sube el brazo izquierdo.							|
+|Tecla Y: El robot baja el brazo izquierdo.							|
+|Tecla H: El cuello del robot crece.								|
+|Tecla G: El cuello del robot decrece.								|
+|Tegla F: La mano derecha del robot aumenta su tamaño para convertirse en un arma (palo).	|
+|Tegla D: La mano derecha disminuye para volver a convertirse en mano.				|
+|Tecla V: La mano izquierda del robot aumenta su tamaño para convertirse en un arma (palo).	|
+|Tecla C: La mano izquierda disminuye para volver a convertirse en mano.			|
+|Tecla P: Las manos (o palos en su defecto) giran durante unos segundos.			|	
+|												|
+ -----------------------------------------------------------------------------------------------
+
+
+* Bonus:
+ -----------------------------------------------------------------------------------------------
+|												|
+|Tecla L: El robot emite rayos laser a traves de sus ojos.					|
+|												|
+|Esta función no es contabilizada en los grados de libertad.					|
+|												|
+|												|
+ -----------------------------------------------------------------------------------------------
+
